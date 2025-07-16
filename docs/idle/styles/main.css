@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', cursive, sans-serif;
+    font-size: 1em;
+    color: #222;
+    margin: 0;
+    padding: 16px;
+    line-height: 1.6;
+    background: #fff;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.capital::first-letter {
+    font-family: 'Eagle Lake', serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    /* border-radius: 2px; */
+    /* box-shadow: 3px 3px 0 black; */
+    font-size: 175%;
+    padding: 2px 6px;
+    margin-right: 6px;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* margin: 16px auto; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); */
+}
+
+blockquote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    font-style: italic;
+    color: #333;
+    position: relative;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 3em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #ccc;
+    font-family: Georgia, serif;
+}
+
+blockquote::after {
+    content: "”";
+    font-size: 3em;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    color: #ccc;
+    font-family: Georgia, serif;
+}
