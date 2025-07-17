@@ -14,22 +14,28 @@ body {
     margin-right: auto;
 }
 
+.ai-alert {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.4rem;
+
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    padding: 0.25rem 0.5rem;
+    margin: 0 0 0 auto;
+    /* Push it to the right */
+    max-width: fit-content;
+
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
 .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    /* You can change this as needed */
-    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: middle;
     line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    white-space: nowrap;
-    direction: ltr;
-
-    /* Support for all browsers */
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
