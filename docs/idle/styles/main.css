@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
 body {
     font-family: 'Happy Monkey', cursive, sans-serif;
@@ -11,6 +12,24 @@ body {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* You can change this as needed */
+    display: inline-block;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all browsers */
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
