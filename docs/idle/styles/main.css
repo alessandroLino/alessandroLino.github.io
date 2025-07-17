@@ -23,7 +23,7 @@ body {
     font-size: 0.7rem;
     font-family: sans-serif;
     padding: 0.25rem 0.5rem;
-    margin: 0 0 0 auto;
+    margin: 0 0 8px auto;
     /* Push it to the right */
     max-width: fit-content;
 
